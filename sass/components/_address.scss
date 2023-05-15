@@ -1,0 +1,24 @@
+.address {
+    margin-top: 20px;
+    width: 231px;
+  }
+  .address__item {
+    margin-bottom: 9px;
+    
+    &:last-child {
+    margin-bottom: 0;
+    }
+  }
+  
+  .address__link {
+    color: var(--hero-title-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration-line: none;
+    
+    &_color_opacity {
+    color: rgb(255, 255, 255, 0.6);
+    }
+  }
+  

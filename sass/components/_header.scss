@@ -1,7 +1,7 @@
 .page-header {
   border-bottom: 1px solid #ececec;
 }
-.page-header > .container {
+.page-header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,49 +18,55 @@
   padding-bottom: 25px;
 }
 
-.page-header .link {
-  display: inline-block;
+.page-header__link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .site-nav {
   display: flex;
   gap: 50px;
 }
+
+.site-nav__link {
+  position: relative;
+  display: inline-block;
+  color: var(--title-font-color);
+  transition: color var(--page-transition);
+  
+    &:hover, &:focus, &_current{
+      color: var(--site-accent-color);
+    }
+    
+    &_current::after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 4px;
+      background: var(--site-accent-color);
+      border-radius: 2px;
+      bottom: -1px;
+    }
+}
+
 .auth-nav {
   display: flex;
   gap: 50px;
 }
-.site-nav .link {
-  position: relative;
-  color: var(--title-font-color);
-  transition: color var(--page-transition);
-}
-.auth-nav .link {
+
+.auth-nav__link {
   color: var(--font-color);
   display: flex;
   align-items: center;
   gap: 10px;
   transition: color var(--page-transition);
-}
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .current,
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--site-accent-color);
-}
-.site-nav .current::after {
-  position: absolute;
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-  background: var(--site-accent-color);
-  border-radius: 2px;
-  bottom: -1px;
+
+  &:hover, &:focus {
+    color: var(--site-accent-color);
+  }
 }
 
-.auth-nav-icon {
+.auth-nav__icon {
   fill: currentColor;
 }

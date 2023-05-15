@@ -5,10 +5,11 @@
   line-height: 1.2;
   text-decoration: none;
   color: var(--site-accent-color);
-}
-.logo-black {
+
+  &__part_color_black {
   color: var(--logo-color-black);
-}
-.logo-white {
+  }
+  &__part_color_white {
   color: var(--logo-color-white);
+  }
 }

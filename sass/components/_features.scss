@@ -1,14 +1,17 @@
 .features {
   padding-top: 94px;
 }
-.features-list {
+
+.features__list {
   display: flex;
   gap: 30px;
 }
-.features-list > li {
+
+.features__item {
   flex-basis: calc((100% - 3 * 30px) / 4);
 }
-.features-title {
+
+.features__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -16,12 +19,14 @@
   margin-top: 0;
   margin-bottom: 10px;
 }
-.features-text {
+
+.features__text {
   font-size: 14px;
   line-height: 1.71;
   margin: 0;
 }
-.features .thumb {
+
+.features__thumb {
   width: 270px;
   height: 120px;
   background: var(--team-background-color);

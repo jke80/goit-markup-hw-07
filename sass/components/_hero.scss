@@ -13,10 +13,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.hero > .container {
+.hero__container {
   text-align: center;
 }
-.hero-title {
+.hero__title {
   width: 696px;
   font-weight: 900;
   font-size: 44px;
@@ -29,23 +29,6 @@
   margin-top: 0;
   margin-bottom: 30px;
 }
-.hero-button {
-  font-family: inherit;
+.hero__btn {
   padding: 10px 24px;
-  background-color: var(--site-accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: var(--hero-title-color);
-  cursor: pointer;
-  border: none;
-  transition: background-color var(--page-transition);
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--bg-active-button);
 }

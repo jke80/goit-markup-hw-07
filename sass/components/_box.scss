@@ -2,24 +2,32 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.box .list {
+.box__title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-font-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.box__list {
   display: flex;
   gap: 30px;
 }
-.box-list-item {
+.box__item {
   position: relative;
   flex-basis: calc((100% - 3 * 30px) / 4);
 }
-.box-list-item > div {
+.box__wrap {
   position: absolute;
   bottom: 0;
   width: 100%;
-
   background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;
 }
-.box-list-item p {
+
+.box__text {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
