@@ -1,9 +1,18 @@
-@import './utils/variables';
+@import './utils/vars';
 @import './utils/visually-hidden';
-@import './utils/no-gap';
-@import './utils/list';
 
 @import './base/common';
 @import './base/container';
 
-@import './layout/header';
+@import './components/header';
+@import './components/logo';
+
+@import './components/hero';
+@import './components/features';
+@import './components/box';
+@import './components/team';
+@import './components/clients';
+
+@import './components/portfolio';
+@import './components/footer';
+@import './components/modal';
