@@ -3,10 +3,6 @@
   padding-bottom: 94px;
 }
 .box__title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--title-font-color);
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -22,15 +18,13 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(47, 48, 58, 0.8);
+  background-color: var(--box-wrap-bg-color);
   padding-top: 27px;
   padding-bottom: 27px;
 }
 
 .box__text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  @include font(700, 14px, 16px);
   text-transform: uppercase;
   color: var(--hero-title-color);
   margin-top: 0;

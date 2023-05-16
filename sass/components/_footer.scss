@@ -10,10 +10,9 @@
 .footer__socials {
   margin-left: 70px;
 }
+
 .footer__socials-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  @include font(700, 14px, 16px);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hero-title-color);

@@ -1,9 +1,9 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
-
+@import './utils/mixins';
 @import './base/common';
 @import './base/container';
-
+@import './components/section-title';
 @import './components/header';
 @import './components/logo';
 @import './components/button';
@@ -11,11 +11,15 @@
 @import './components/features';
 @import './components/box';
 @import './components/team';
-@import'./components/socials';
+@import './components/socials';
 @import './components/clients';
-
-@import './components/portfolio';
 @import './components/footer';
 @import './components/address';
 @import './components/subscribe';
+
 @import './components/modal';
+@import './components/close-btn';
+@import './components/contact-form';
+
+@import './components/portfolio';
+@import './components/work';

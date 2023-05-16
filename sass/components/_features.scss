@@ -12,8 +12,7 @@
 }
 
 .features__title {
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 16px);
   text-transform: uppercase;
   color: var(--title-font-color);
   margin-top: 0;
@@ -21,8 +20,7 @@
 }
 
 .features__text {
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400, 14px, 24px);
   margin: 0;
 }
 

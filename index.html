@@ -27,26 +27,44 @@
           >
           <ul class="site-nav list">
             <li>
-              <a href="./index.html" class="link page-header__link site-nav__link site-nav__link_current">Студія</a>
+              <a
+                href="./index.html"
+                class="link page-header__link site-nav__link site-nav__link_current"
+                >Студія</a
+              >
             </li>
             <li>
-              <a href="./portfolio.html" class="link page-header__link site-nav__link">Портфоліо</a>
+              <a
+                href="./portfolio.html"
+                class="link page-header__link site-nav__link"
+                >Портфоліо</a
+              >
             </li>
-            <li><a href="#" class="link page-header__link site-nav__link">Контакти</a></li>
+            <li>
+              <a href="#" class="link page-header__link site-nav__link"
+                >Контакти</a
+              >
+            </li>
           </ul>
         </nav>
 
         <ul class="auth-nav list">
           <li>
-            <a href="meilto:info@devstudio.com" class="link page-header__link auth-nav__link">
+            <a
+              href="meilto:info@devstudio.com"
+              class="link page-header__link auth-nav__link"
+            >
               <svg class="auth-nav__icon" width="16" height="16">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li >
-            <a href="tel:+380961111111" class="link page-header__link auth-nav__link">
+          <li>
+            <a
+              href="tel:+380961111111"
+              class="link page-header__link auth-nav__link"
+            >
               <svg class="auth-nav__icon" width="16" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
@@ -127,7 +145,7 @@
       <!-- Чим ми займаємось -->
       <section class="box">
         <div class="container">
-          <h2 class="box__title">Чим ми займаємося</h2>
+          <h2 class="section-title box__title">Чим ми займаємося</h2>
           <ul class="box__list list">
             <li class="box__item">
               <img
@@ -170,7 +188,7 @@
       <!-- Наша команда -->
       <section class="team">
         <div class="container">
-          <h2 class="team__title">Наша команда</h2>
+          <h2 class="section-title team__title">Наша команда</h2>
           <ul class="list team__list">
             <li class="team__card">
               <img
@@ -347,7 +365,7 @@
       <!-- Постійні клієнти------------------------------------->
       <section class="clients">
         <div class="container">
-          <h2 class="clients__title">Постійні клієнти</h2>
+          <h2 class="section-title clients__title">Постійні клієнти</h2>
           <ul class="clients__list list">
             <li>
               <a href="#" class="clients__link">
@@ -416,12 +434,16 @@
                 >
               </li>
               <li class="address__item">
-                <a href="mailto:info@devstudio.com" class="address__link address__link_color_opacity"
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="address__link address__link_color_opacity"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="address__item">
-                <a href="tel:+380961111111" class="address__link address__link_color_opacity"
+                <a
+                  href="tel:+380961111111"
+                  class="address__link address__link_color_opacity"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -434,28 +456,44 @@
           <ul class="socials list">
             <li>
               <a class="socials__link socials__link_background_opacity" href="#"
-                ><svg class="socials__icon socials__icon_color_white" width="20" height="20">
+                ><svg
+                  class="socials__icon socials__icon_color_white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a class="socials__link socials__link_background_opacity" href="#"
-                ><svg class="socials__icon socials__icon_color_white" width="20" height="20">
+                ><svg
+                  class="socials__icon socials__icon_color_white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a class="socials__link socials__link_background_opacity" href="#"
-                ><svg class="socials__icon socials__icon_color_white" width="20" height="20">
+                ><svg
+                  class="socials__icon socials__icon_color_white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a class="socials__link socials__link_background_opacity" href="#"
-                ><svg class="socials__icon socials__icon_color_white" width="20" height="20">
+                ><svg
+                  class="socials__icon socials__icon_color_white"
+                  width="20"
+                  height="20"
+                >
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
@@ -463,7 +501,10 @@
           </ul>
         </div>
 
-        <form action="javascript:void(0);" class="subscribe footer__subscribe-form">
+        <form
+          action="javascript:void(0);"
+          class="subscribe footer__subscribe-form"
+        >
           <label for="subscribe_email" class="subscribe__label"
             >Підпишіться на розсилку</label
           >
@@ -490,75 +531,81 @@
     <!-- Модальне вікно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>
-          <svg width="18" height="18" class="close-svg">
+        <button
+          type="button"
+          class="modal__close-btn close-btn"
+          data-modal-close
+        >
+          <svg width="18" height="18" class="close-btn__icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
 
         <form action="javascript:void(0);" class="contact-form">
-          <p class="contact-form-title">
+          <p class="contact-form__title">
             Залиште свої дані, ми вам передзвонимо
           </p>
 
-          <label class="contact-form-label"
+          <label class="contact-form__label"
             >Ім'я
-            <span class="contact-form-input-wrapper">
-              <input type="text" name="user_name" class="contact-form-input" />
-              <svg width="18" height="18" class="contact-form-input-svg">
+            <span class="contact-form__input-wrapper">
+              <input type="text" name="user_name" class="contact-form__input" />
+              <svg width="18" height="18" class="contact-form__icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
           </label>
 
-          <label class="contact-form-label"
+          <label class="contact-form__label"
             >Телефон
-            <span class="contact-form-input-wrapper">
-              <input type="tel" name="user_tel" class="contact-form-input" />
-              <svg width="18" height="18" class="contact-form-input-svg">
+            <span class="contact-form__input-wrapper">
+              <input type="tel" name="user_tel" class="contact-form__input" />
+              <svg width="18" height="18" class="contact-form__icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </span>
           </label>
 
-          <label class="contact-form-label"
+          <label class="contact-form__label"
             >Пошта
-            <span class="contact-form-input-wrapper">
+            <span class="contact-form__input-wrapper">
               <input
                 type="email"
                 name="user_email"
-                class="contact-form-input"
+                class="contact-form__input"
               />
-              <svg width="18" height="18" class="contact-form-input-svg">
+              <svg width="18" height="18" class="contact-form__icon">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </span>
           </label>
 
-          <label class="contact-form-label"
+          <label class="contact-form__label contact-form__textarea-label"
             >Коментар
             <textarea
               name="user_coment"
-              class="contact-form-input"
+              class="contact-form__input contact-form__textarea-input"
               placeholder="Введіть текст"
             ></textarea>
           </label>
 
-          <label class="user-policy-label">
+          <label class="contact-form__policy-label">
             <input
               type="checkbox"
               name="policy"
               required
-              class="user-policy-checkbox visually-hidden"
+              class="contact-form__policy-checkbox visually-hidden"
             />
-            <svg class="check-box-icon">
+            <svg class="contact-form__checkbox-icon">
               <use href="./images/icons.svg#icon-check"></use>
             </svg>
             Погоджуюся з розсилкою та приймаю&nbsp;
-            <a href="#" class="policy-link"> Умови договору</a>
+            <a href="#" class="contact-form__policy-link"> Умови договору</a>
           </label>
 
-          <button type="submit" class="button contact-form__btn">Відправити</button>
+          <button type="submit" class="button contact-form__btn">
+            Відправити
+          </button>
         </form>
       </div>
     </div>
